@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sk my homepage</title>
+  <link rel="stylesheet" href=" css/main.css"> 
+  <link rel="stylesheet" href=" css/project.css"> 
+  <link rel="icon" href="img/favicon.ico">
+  <!-- roboto -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="lang">JP</div>
+  <section class="header">
+      <h1>WELCOME!</h1>
+      <p>興味を持っていただけて嬉しいです！<br/>製作したものの詳細を載せています。是非ご覧ください！</p>
+      
+  </section>
+
+  <section class="pj-container" id="pj-container">
+    <!-- <div id="project-card"></div>
+    <div id="project-card"></div> -->
+    <label class="label">Chrome Extension</label>
+    <div class="b-block">
+      <button class="pj-button" onclick="projectCard(
+        ['Local-Japan Time Converter',
+        '個人',
+        '約6時間',
+        '仕事効率化のため。オンラインのアルバイトでWebページに表示されている時間を日本時間へ変換することが多く、毎回他のタブを開いて変換を行なっていたために作業効率が悪くなっていました。変換のために時間を少しでも削るために制作しました。',
+        'Chrome extensionのアイコンをクリックするとポップアップウィンドウが開きます。年月日・時間を入力し、”Convert”ボタンを押すとコンピューターで設定されている時間を基に、日本時間へと変換します。',
+        'HTML / CSS / JavaScript',
+        '初めてのChrome extension制作だったので、学習する時間を含めて短時間で制作を行うことにこだわりました。',
+        '#',
+        '/skura-00/Local-Japan_Time_Converter.git',
+        'img/timeConverter.gif',
+        'Time converter GIF']
+      )">Local-Japan Time Converter</button>
+
+      <button class="pj-button" onclick="projectCard(
+        ['YARUKOTO',
+        'チーム',
+        '約28時間（10日間）',
+        '夏休みの自由研究',
+        'シンプルなTodoリストです。タスクを表示させる日付、タスクのタイトルを入力し、３つの色でタスクを分類することができます。',
+        'HTML / CSS / JavaScript',
+        '開発途中で頓挫しないように、企画をする段階で作業期間・Todoリストに盛り込む要素等をしっかりと話し合うことに時間をかけました。開発中は毎回作業前にコード内の変更点を共有し合うことを徹底しました。',
+        '#',
+        '/skura-00/YARUKOTO.git',
+        'img/yarukoto.gif',
+        'YARUKOTO GIF']
+      )">YARUKOTO</button>
+
+    </div>
+    
+
+    <div id="project-field"></div>
+  </section>
+
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src=" project2.js"></script>
+</body>
+</html>

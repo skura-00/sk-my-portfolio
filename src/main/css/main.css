@@ -1,0 +1,271 @@
+:root {
+  --blue: #647DFF;
+  --red: #FF5B5B;
+  --yellow: #FFE55B;
+  --dark: #26284D;
+  --grey: #E6E6E6;
+}
+
+/* rem =  */
+/* REM = relative to html size*/
+@media screen and (max-width: 579px) {
+  * {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    /* Regular 400  Block 700 */
+    padding: 0;
+    margin:0;
+  }
+  
+  /* ========== Header ========== */
+  
+
+  .header {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .lang {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    margin-top: 4rem;
+    color: var(--dark);
+  }
+  
+  .header p {
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    margin-bottom: 6rem;
+  }
+  
+  /* ========== Header end ========== */
+  section {
+    margin: 0.8rem 0.8rem;
+  }
+  
+  .label {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+  }
+  /* ========== Project ========== */
+  .pj-container {
+    display: block;
+    /* border: 2px solid var(--blue); */
+    border-radius: 30px;
+  } 
+
+  .b-block {
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .pj-button {
+      font-size: 0.8rem;
+      font-weight: 700;
+      display: block;
+      /* min-width: 10rem; */
+      width: 80%;
+      /* width: 50%; */
+      height: 2rem;
+      margin: auto;
+      color: black;
+      background-color: #fff;
+      border: 2px solid #26284D;
+  }
+
+  #project-field {
+    margin-bottom: 2.5rem;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+  
+}
+
+/* Medium */
+@media screen and (min-width: 580px) {
+  * {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    /* Regular 400  Block 700 */
+    padding: 0;
+    margin:0;
+  }
+  
+  /* ========== Header ========== */
+  
+
+  .header {
+    margin: auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .lang {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .header h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+    letter-spacing: 0.8rem;
+    margin-top: 4rem;
+    color: var(--dark);
+  }
+  
+  .header p {
+    font-size: 1rem;
+    margin-top: 0.6rem;
+    margin-bottom: 4rem;
+  }
+  
+  
+  /* ========== Header end ========== */
+  section {
+    margin: 1rem 1rem;
+  }
+  
+  .label {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-left: 4rem;
+  }
+  /* ========== Project ========== */
+  .pj-container {
+    display: block;
+    /* border: 3px solid var(--blue); */
+    border-radius: 30px;
+  } 
+  
+  .b-block {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+  }
+  .pj-button {
+      font-size: 1rem;
+      font-weight: 700;
+      display: block;
+      /* min-width: 15rem;
+      min-height: 3rem; */
+      width: 40%;
+      height: 3rem;
+  
+      background-color: #fff;
+      border: 2px solid #26284D;
+  }
+
+  #project-field {
+    margin-bottom: 2.5rem;
+  }
+  .project-card {
+    width: 100%;
+  }
+  
+}
+ 
+/* large */
+@media only screen and (min-width: 1201px) {
+  * {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    /* Regular 400  Block 700 */
+    padding: 0;
+    margin:0;
+  }
+  
+  /* ========== Header ========== */
+  
+  .header {
+    margin: auto;
+    width: 50%;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .lang {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+  
+  h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    letter-spacing: 0.8rem;
+    margin-top: 8rem;
+    color: var(--dark);
+  }
+  
+  p {
+    /* display: block; */
+    margin-top: 0.6rem;
+    margin-bottom: 4rem;
+  }
+  
+  
+  /* ========== Header end ========== */
+  section {
+    margin: 2rem 3rem;
+  }
+  
+  
+  h2 {
+    padding: 15rem;
+  }
+  
+  /* ========== Project ========== */
+  .pj-container {
+    /* border: 3px solid var(--blue); */
+    border-radius: 30px;
+  }
+
+  .b-block {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 10rem; */
+  }
+
+  .pj-button {
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+
+    width: 40%;
+    height: 3rem;
+
+    background-color: #fff;
+    border: 2px solid #26284D;
+  }
+  .pj-button:hover {
+    background-color: #26284D;
+    color: #fff;
+  }
+
+  .project-card {
+    margin: 0;
+    padding: 0;
+  }
+
+  #project-field {
+    margin-bottom: 3
