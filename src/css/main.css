@@ -1,0 +1,158 @@
+
+
+/* small */
+@media only screen and (max-width: 599px) {
+  .screen {
+    /* display: flex; */
+    padding: 0% 5%;
+    font-size: 3vw;
+  }
+  
+  .main {
+    /* margin-left: 25%; */
+    width: 100%;
+  }
+  
+  .index {
+    position: fixed;
+    font-size: 2.2vw;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .index_list {
+    list-style-type: none;
+    display: flex;
+    padding: 2% 3% 0% 0%;
+  }
+  
+  .index_list li {
+    justify-content: space-evenly;
+    margin: 0% 5%;
+  }
+  
+  .index_list ol {
+    /* display: flex;
+    list-style-type: none; */
+    display: none;
+    /* justify-content: space-evenly; */
+    /* margin: 0% 5%; */
+  }
+  
+  .index_list li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20%;
+  }
+  
+  .headImg {
+    margin-top: 12%;
+    width: 50%;
+  }
+
+}
+
+
+/* mid */
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  .screen {
+    /* display: flex; */
+    padding: 0% 5%;
+    font-size: 2vw;
+  }
+  
+  .main {
+    /* margin-left: 25%; */
+    width: 100%;
+  }
+  
+  .index {
+    position: fixed;
+    font-size: 1.4vw;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .index_list {
+    list-style-type: none;
+    display: flex;
+    padding: 2% 3% 0% 0%;
+  }
+  
+  .index_list li {
+    /* justify-content: space-evenly; */
+    margin: 0% 5%;
+  }
+  
+  .index_list ol {
+    /* display: flex;
+    list-style-type: none; */
+    display: none;
+    /* justify-content: space-evenly; */
+    /* margin: 0% 5%; */
+  }
+  
+  .index_list li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20%;
+  }
+  
+  .headImg {
+    margin-top: 12%;
+    width: 50%;
+  }
+
+}
+
+/* big */
+@media only screen and (min-width: 901px) {
+  .screen {
+    display: flex;
+    padding: 5%;
+  }
+  
+  .main {
+    margin-left: 25%;
+    width: 70%;
+  }
+  
+  .index {
+    position: fixed;
+    font-size: 1vw;
+  }
+  
+  .index_list {
+    list-style-type: none;
+  }
+  
+  .index_list li {
+    padding-bottom: 10%;
+  }
+  
+  .index_list li a {
+    color: black;
+  }
+  
+  .index_list li a:hover {
+    color: steelblue;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20%;
+  }
+  
+  .headImg {
+    margin-top: 10%;
+    width: 35%;
+  }
+}

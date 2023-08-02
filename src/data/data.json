@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1",
+    "title": "Local-Japan Time Converter",
+    "time": "約6時間",
+    "style": "個人プロジェクト",
+    "detail": "Chrome extensionのアイコンをクリックするとポップアップウィンドウが開きます。年月日・時間を入力し、”Convert”ボタンを押すとコンピューターで設定されている時間を基に、日本時間へと変換します。",
+    "purpose": "仕事効率化のため。オンラインのアルバイトでWebページに表示されている時間を日本時間へ変換することが多く、毎回他のタブを開いて変換を行なっていたために作業効率が悪くなっていました。変換のために時間を少しでも削るために制作しました。",
+    "lang": "HTML / CSS / JavaScript",
+    "point": "初めてのChrome extension制作だったので、学習する時間を含めて短時間で制作を行うことにこだわりました。",
+    "img": "TimeConverter.png",
+    "github": "https://github.com/skura-00/Local-Japan_Time_Converter.git",
+    "urlTitle": "Google Web Store",
+    "otherUrl": "https://chrome.google.com/webstore/detail/time-converter/mebdmlncdecclclihlgknnolinodnjep?hl=en"
+  },
+
+  {
+    "id": "2",
+    "title": "YARUKOTO",
+    "time": "約28時間（10日間）",
+    "style": "チームプロジェクト",
+    "detail": "シンプルなTodoリストです。タスクを表示させる日付、タスクのタイトルを入力し、３つの色でタスクを分類することができます。",
+    "purpose": "夏休みの自由研究。チームで開発する経験を積みたかったので、大学の友人に声をかけてプロジェクトを始めました。",
+    "lang": "HTML / CSS / JavaScript",
+    "point": "開発途中で頓挫しないように、企画をする段階で作業期間・Todoリストに盛り込む要素等をしっかりと話し合うことに時間をかけました。開発中は毎回作業前にコード内の変更点を共有し合うことを徹底しました。",
+    "img": "YARUKOTO.png",
+    "github": "https://github.com/skura-00/YARUKOTO.git",
+    "urlTitle": "Google Web Store",
+    "otherUrl": "https://chrome.google.com/webstore/detail/yarukoto/emgfejmhggdelghphfpapghecmaleaec?hl=en"
+  }
+]
