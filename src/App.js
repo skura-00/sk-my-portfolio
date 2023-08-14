@@ -6,6 +6,8 @@ import './css/about.css';
 import ExtentionData from './data/data.json'
 import head_img from './img/welcome.png'
 
+// const rootPath = window.location.pathname
+
 class Header extends React.Component {
   render() {
     return (
@@ -25,6 +27,28 @@ class WebsiteProject extends React.Component {
         <p>見やすいサイトを作ることを意識しました。ReactJS / CSS</p>
         <div style={{width:"100%",height:"10%",border:"1px solid black"}}>
           <img src={require(`./img/website1.png`)} alt="image" style={{width:"100%",}}></img>
+        </div>
+      </section>
+    );
+  }
+}
+
+class SchoolProject extends React.Component {
+  render() {
+    return (
+      <section style={{alignContent:"center"}} >
+        <h4>データベースシステム</h4>
+
+        <div class="ex_urls">
+          <a href="https://github.com/skura-00/2221_data_base_.git">GitHub</a>
+          <a href="https://main--my-portfolio-db-page.netlify.app/">DBページ</a>
+        </div>
+
+        <p>グループプロジェクトで架空の学校のクラブDBを制作しました。</p>
+
+        
+        <div style={{width:"100%",height:"10%",border:"1px solid black"}}>
+          <img src={require(`./img/dbsite.png`)} alt="image" style={{width:"100%",}}></img>
         </div>
       </section>
     );
@@ -83,7 +107,7 @@ class About extends React.Component {
         <section>
           <ul class="about_list">
             <li>HTML/CSS：簡単なWebページが作れる。</li>
-            <li>JavaScript：簡単なWebページが作れる。このポートフォリオサイトではReactJSを使用。</li>
+            <li>JavaScript：簡単なWebページが作れる。このポートフォリオサイトではReactを使用。</li>
             <li>Java：授業で学習した。OOPで簡単なアプリケーションを作れる。</li>
             <li>C++：授業で学習した。</li>
             <li>Python3：授業で触った。</li>
@@ -122,7 +146,7 @@ class Body extends React.Component {
         <Spacer />
 
         <h1 id="school">学校のプロジェクト(Not ready yet)</h1>
-
+        <SchoolProject />
         <Spacer />
 
         <h1 id="extention">Chrome拡張機能</h1>
@@ -173,14 +197,15 @@ class Index extends React.Component {
 function App() {
   return (
     <div class="screen">
-        <Index />
-        <div class="main">
-          <Header />
-          <Spacer />
-          <Body />
-        </div>
-      
+    <Index />
+    <div class="main">
+      <Header />
+      <Spacer />
+      <Body />
     </div>
+
+    </div>
+    
   );
 }
 
