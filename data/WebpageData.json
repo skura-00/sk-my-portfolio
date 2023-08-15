@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "ポートフォリオウェブサイト",
+    "style": "個人",
+    "detail": "自分が作ったものを紹介するサイトです。",
+    "lang": "React App / CSS",
+    "point": "見やすいサイトになるよう、余白を多く使いました。",
+    "img": "website1",
+    "github": "https://github.com/skura-00/sk-my-portfolio",
+    "urlTitle": "サイト",
+    "otherUrl": "#"
+  },
+  {
+    "id": "2",
+    "title": "架空のクラブデータベースページ",
+    "style": "個人",
+    "detail": "授業で設計・開発したシステムを実際に試していただけるページを制作しました。一部機能ですが、１つのテーブルのInsertとSelectionを試していただけます。",
+    "lang": "React App / CSS、Heroku",
+    "point": "サーバーサイドでデータベース実装をするのが初めてだったため、実装方法を調べることに苦労しました。特に、本番環境への実装が難しく、検索の焦点がなかなか合いませんでしたが、根気強くデータベース実装について調べました。",
+    "img": "db_page",
+    "github": "https://github.com/skura-00/my-portfolio-db-page",
+    "urlTitle": "サイト",
+    "otherUrl": "https://main--my-portfolio-db-page.netlify.app/"
+  }
+]

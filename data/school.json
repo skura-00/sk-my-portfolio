@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Langara：データベースシステム",
+    "style": "グループプロジェクト",
+    "detail": "架空の学校のクラブを管理できるシステムを設計・開発しました。PHPで開発したページはインターネットで使えないため、別にデータベースを試していただけるページを制作しました。",
+    "lang": "MySQL / PHP",
+    "point": "2人でのプロジェクトでシステムの設計は合同で行い、MySQLとMSSQLでの提出が必要だったため、MySQLでの開発を担当しました。システムの設計の段階でエラーを出さないよう、定期的に話し合いをしっかりと行い、わからない部分は教授に質問することを心がけました。",
+    "img": "dbsite",
+    "github": "https://github.com/skura-00/2221_data_base_",
+    "urlTitle": "DBページ",
+    "otherUrl": "https://main--my-portfolio-db-page.netlify.app/"
+  },
+  {
+    "id": "2",
+    "title": "UBC：Software Construction (オブジェクト指向プログラミング)",
+    "style": "個人プロジェクト",
+    "detail": "出欠の取れるアプリケーションを開発しました。",
+    "lang": "Java、IntelliJ",
+    "point": "授業の流れに合わせて長期間で行うプロジェクトだったため、構造が複雑になるにつれて欠陥が多く見つかり、修正することに苦労しました。何度か作り直しも行い、最後はアプリケーションを形にすることができました。",
+    "img": "no_img",
+    "github": "https://github.com/skura-00/project_210_oop",
+    "urlTitle": "",
+    "otherUrl": "#"
+  }
+]
