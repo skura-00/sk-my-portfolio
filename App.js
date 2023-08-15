@@ -182,7 +182,7 @@ class Body extends React.Component {
 
         <h1 id="contact">Contact</h1>
         <p>送り先名：S K</p>
-        <a href="mailto:sakura39.081201@gmail.com">メール</a>
+        <a href="mailto:#">メール</a>
 
         <Spacer />
       </section>
